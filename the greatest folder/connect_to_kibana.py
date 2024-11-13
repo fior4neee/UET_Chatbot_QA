@@ -1,6 +1,10 @@
 from elasticsearch import Elasticsearch
 import pandas as pd
 import ast
+import numpy as np
+
+
+
 # Connect to Elasticsearch
 es = Elasticsearch(
     ['https://localhost:9200'],  # Full URL with the scheme
